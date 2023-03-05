@@ -10,11 +10,6 @@ bool isOperand(char x){
     return 0;
 }
 
-int parenthesis(char x){
-    if(x == '(')
-        return 100;
-}
-
 int prec(char x){
     switch(x){
         case '+':
